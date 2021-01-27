@@ -2,6 +2,8 @@
 
 project desc: @VUE/CLI + element-ui + echarts + less + 环境变量
 
+项目初始化对应的文档：https://www.jianshu.com/p/85bfa31709c7
+
 ## Project setup
 ```
 yarn install
