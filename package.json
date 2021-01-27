@@ -1,0 +1,53 @@
+{
+  "name": "web-dev-standard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --mode test",
+    "start--test": "vue-cli-service serve --mode test",
+    "start--dev": "vue-cli-service serve --mode dev",
+    "start--prod": "vue-cli-service serve --mode prod",
+    "build": "vue-cli-service build --mode prod",
+    "build--test": "vue-cli-service build --mode test",
+    "build--prod": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.0.1",
+    "element-ui": "^2.15.0",
+    "less": "^4.1.0",
+    "less-loader": "^7.3.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
