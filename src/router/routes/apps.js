@@ -1,26 +1,26 @@
 /* 主项目使用路由文件 */
 import * as routerNames from '@/router/router-names'
 
-const DEMO = r => require.ensure([], () => r(require('@/views/demo')), 'echartsdemo')
-const ECHARTSDEMO = r => require.ensure([], () => r(require('@/views/demo/echartsdemo')), 'echartsdemo')
-const AXIOSDEMO = r => require.ensure([], () => r(require('@/views/demo/axiosdemo')), 'axiosdemo')
+const WORKBENCH = r => require.ensure([], () => r(require('@/views/workbench')), 'workbench')
+// const ECHARTSDEMO = r => require.ensure([], () => r(require('@/views/demo/echartsdemo')), 'echartsdemo')
+// const AXIOSDEMO = r => require.ensure([], () => r(require('@/views/demo/axiosdemo')), 'axiosdemo')
 
 export default [
   {
-    path: '/demo',
-    name: routerNames.DEMO,
-    component: DEMO,
+    path: '/',
+    name: routerNames.WORKBENCH,
+    component: WORKBENCH,
     children: [
       {
-        path: 'echartsdemo',
-        name: routerNames.ECHARTSDEMO,
-        component: ECHARTSDEMO
+        path: 'workbench',
+        name: routerNames.WORKBENCH,
+        component: WORKBENCH
       },
-      {
-        path: 'axiosdemo',
-        name: routerNames.AXIOSDEMO,
-        component: AXIOSDEMO
-      }
+      // {
+      //   path: 'axiosdemo',
+      //   name: routerNames.AXIOSDEMO,
+      //   component: AXIOSDEMO
+      // }
     ]
   }
 ]

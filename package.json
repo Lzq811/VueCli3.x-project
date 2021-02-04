@@ -13,12 +13,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "echarts": "^5.0.1",
     "element-ui": "^2.15.0",
     "less": "^4.1.0",
     "less-loader": "^7.3.0",
+    "postcss-adaptive": "^0.5.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
     "vue": "^2.6.11",
     "vue-router": "^3.5.0",
     "vuex": "^3.6.2"

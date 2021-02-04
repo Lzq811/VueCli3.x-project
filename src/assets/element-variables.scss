@@ -1,0 +1,14 @@
+/* 
+* 本文件专用修改 element-ui 默认的  scss 样式变量
+* 下面是 element 的 scss 变量管理文件目录
+* node_modules\element-ui\packages\theme-chalk\src\common\var.scss
+*/
+
+
+/* 改变主题色变量 */
+$--color-primary: teal;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

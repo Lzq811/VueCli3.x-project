@@ -1,11 +1,7 @@
 /* 路由页面的名臣管理文件 */
 
-// 登录 注册
-export const LOGIN = 'LOGIN'
-export const REGISTER = 'REGISTER'
-
 // 主页
-export const HOMEPAGE = 'HOMEPAGE'
+export const WORKBENCH = 'WORKBENCH'
 
 // 404
 export const ERRORPAGE = 'ERRORPAGE'
